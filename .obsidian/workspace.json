@@ -186,6 +186,13 @@
   },
   "active": "b23628539ca44ac3",
   "lastOpenFiles": [
+    "maps/projects.md",
+    "projects/second-brain.md",
+    "projects/mini-paas.md",
+    "projects/job-tracker.md",
+    "projects/eventix.md",
+    "maps",
+    "projects",
     "AGENTS.md",
     "skills/obsidian-markdown/references/PROPERTIES.md",
     "skills/obsidian-markdown/references/EMBEDS.md",
@@ -204,7 +211,6 @@
     "skills/obsidian-cli",
     "skills/obsidian-bases",
     "skills/json-canvas",
-    "skills/defuddle",
-    "skills"
+    "skills/defuddle"
   ]
 }
