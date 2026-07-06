@@ -11,12 +11,14 @@
             "id": "b23628539ca44ac3",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "raw/CV_Muhammad.pdf"
+                "file": "wiki/skills.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "CV_Muhammad"
+              "icon": "lucide-file",
+              "title": "skills"
             }
           }
         ]
@@ -184,9 +186,15 @@
   },
   "active": "b23628539ca44ac3",
   "lastOpenFiles": [
+    "wiki/project-portfolio.md",
+    "wiki/profile.md",
+    "wiki/interview-story-bank.md",
+    "wiki/experience.md",
+    "wiki/index.md",
+    "raw/CV_Muhammad.pdf",
+    "wiki/skills.md",
     "wiki",
     "projects/bank-bri-backend-interview-2026-07-07.md",
-    "raw/CV_Muhammad.pdf",
     "raw",
     "AGENTS.md",
     "maps/projects.md",
@@ -210,7 +218,6 @@
     "skills/json-canvas/SKILL.md",
     "skills/defuddle/SKILL.md",
     "skills/obsidian-markdown",
-    "skills/obsidian-cli",
-    "skills/obsidian-bases"
+    "skills/obsidian-cli"
   ]
 }
