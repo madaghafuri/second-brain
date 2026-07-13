@@ -15,6 +15,7 @@ This map is the main entry point for active side projects.
 - [[eventix]] - Event ticketing API in Go with ticket reservations, payments, refunds, workers, and risk review.
 - [[job-tracker]] - Cloudflare Workers app for tracking job applications from Gmail.
 - [[mini-paas]] - Go and React mini platform-as-a-service with GitHub App integration and simulated deployments.
+- [[mlops-learning-roadmap]] - 24-week MLOps curriculum with assignments and capstone.
 - [[second-brain]] - This Obsidian vault and its second-brain system.
 
 ## Review prompts

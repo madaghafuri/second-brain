@@ -37,6 +37,47 @@ status: active
 
 ## Positioning
 
+### Interview focus from latest feedback
+
+- At the start of the interview, lead with stack and experience that are closest to the .NET Developer role.
+- Explain project experience more clearly and in more detail: context, role, stack, technical decisions, constraints, and result.
+- After .NET-relevant points are covered, mention other stacks as additional strengths, not as the opening focus.
+
+### Opening answer - .NET Developer focus
+
+Use this order when asked "tell me about yourself":
+
+> Saya Muhammad Ghafuri, backend-focused Software Engineer dengan pengalaman sekitar 3 tahun di API development, system integration, database-backed workflows, dan production support. Untuk kebutuhan posisi .NET Developer, bagian yang paling relevan dari pengalaman saya adalah C#/.NET foundation, OOP, REST API design, SQL terutama Microsoft SQL Server, debugging production issue, dan integrasi sistem enterprise seperti ERP/order-management workflows.
+>
+> Di pengalaman terakhir saya di iSystem Asia untuk client CelcomDigi, saya banyak bekerja di area backend dan integration flow: memahami business workflow, menyesuaikan API contract, menjaga data flow antar sistem, membantu UAT, rollout, dan production debugging. Selain itu saya juga punya pengalaman di Laravel, Node.js/TypeScript, Go, Redis, Docker, dan React. Stack tambahan itu membantu saya memahami backend secara luas, tapi untuk role ini saya akan fokus menonjolkan kemampuan yang paling dekat dengan .NET: C#, API, SQL, integration, reliability, dan maintainable backend code.
+
+Shorter 30-second version:
+
+> Saya backend-focused Software Engineer dengan pengalaman di API, SQL, system integration, dan production support. Untuk posisi .NET Developer, saya ingin menonjolkan pengalaman yang relevan dengan C#/.NET foundation, OOP, REST API, Microsoft SQL Server, dan enterprise integration. Di iSystem Asia saya menangani workflow order-management dan integrasi ERP, termasuk API updates, payload contract, UAT, rollout, dan debugging production. Selain itu saya punya pengalaman tambahan di Laravel, Node.js/TypeScript, Go, Redis, Docker, dan React.
+
+### Tech stack order for early interview
+
+Start with:
+
+- C#/.NET-relevant foundation: C#, OOP, backend service design, REST API concepts.
+- Database: Microsoft SQL Server, relational modeling, transactions, indexes, constraints.
+- Integration: API contracts, payload validation, ERP/order synchronization, data flow debugging.
+- Reliability: production debugging, logging, rollout support, UAT validation, failure investigation.
+- Backend fundamentals: authentication, authorization, background jobs, idempotency, error handling.
+
+Then add:
+
+- Laravel/PHP for enterprise backend work.
+- Node.js/TypeScript/Hono for REST APIs and government freelance systems.
+- Go for side projects with stronger backend architecture practice.
+- Redis, Docker, GitHub integrations, React/Vite as supporting tools.
+
+Avoid opening with:
+
+- "Saya lebih banyak pakai Go/Node/Laravel" before explaining .NET-relevant fundamentals.
+- Too many stack names without tying them to backend responsibilities.
+- A project list without explaining decisions and results.
+
 Short answer for "tell me about yourself":
 
 > I am a backend-focused developer who likes building practical systems end to end: API design, authentication, database modeling, background jobs, and deployment flow. In my side projects, I built systems like Eventix, a Go ticketing API with reservations, payments, refunds, workers, and risk checks, and Mini PaaS, a Go and React platform prototype with GitHub App integration and deployment log streaming. For BRI, I am interested in backend work where reliability, secure data handling, and clear integration boundaries matter because banking systems serve many users and partners.
@@ -115,6 +156,106 @@ Why Backend Developer:
 
 ## Project stories
 
+### Detailed project explanations
+
+#### Project 1: Enterprise NCCF and ERP integration - iSystem Asia
+
+Use this as the most relevant professional project for a .NET Developer interview because it shows enterprise backend, SQL, API contracts, integration, UAT, and production support.
+
+Spoken version:
+
+> Project yang paling relevan dari pengalaman profesional saya adalah enterprise NCCF/order-management workflow untuk client CelcomDigi di iSystem Asia. Sistem ini digunakan untuk mendukung workflow order-management dan integrasi dengan ERP. Peran saya adalah mengerjakan backend dan integration changes, termasuk API update, order synchronization, item distribution, payload contract, defect fixing, UAT support, rollout coordination, dan production debugging.
+>
+> Secara teknis, fokus saya bukan hanya menambah endpoint, tapi memastikan data flow antar sistem tetap konsisten. Saya perlu memahami payload yang dikirim, validasi data, mapping antar sistem, query/database behavior, dan impact perubahan ke workflow bisnis. Karena sistem enterprise biasanya melibatkan beberapa stakeholder, saya juga mendokumentasikan contract, trade-off, dan issue agar perubahan bisa divalidasi dengan jelas saat UAT maupun rollout.
+>
+> Hasilnya, saya mendapatkan pengalaman yang sangat relevan untuk backend enterprise: menjaga API contract, debugging data flow, bekerja dengan SQL/database, koordinasi release, dan memastikan perubahan tidak merusak core workflow. Ini relevan dengan .NET Developer karena concern utamanya sama: backend service yang maintainable, reliable, terintegrasi dengan sistem lain, dan aman untuk production.
+
+Technical details to mention:
+
+- Domain: enterprise order-management and ERP integration.
+- Stack exposure: Laravel services, Creatio, Microsoft SQL Server, Redis/Node.js support, ERP data flows.
+- Responsibilities: API changes, synchronization flow, payload contract documentation, defect fixes, UAT, rollout support.
+- Strong signal: enterprise integration and production reliability.
+
+Potential follow-up answer:
+
+> Kalau ditanya tantangannya, tantangan terbesar adalah perubahan kecil di satu flow bisa berdampak ke sistem lain. Jadi saya biasanya mulai dari memahami contract dan data state, cek query atau log yang relevan, reproduksi issue, lalu validasi fix terhadap skenario UAT yang paling berisiko.
+
+#### Project 2: Eventix - ticketing API
+
+Use this when asked for a deeper backend architecture example.
+
+Spoken version:
+
+> Eventix adalah side project backend untuk event ticketing. Saya membuat API untuk attendee dan organizer authentication, event management, ticket tier, order creation, reservation, mock payment, ticket issuing, refund flow, QR ticket check-in, background worker, dan admin risk review.
+>
+> Bagian paling penting dari project ini adalah workflow order dan ticket reservation. Ketika user membuat order, sistem harus menahan inventory sementara agar ticket tidak oversold. Kalau pembayaran berhasil, reservation berubah menjadi ticket yang issued. Kalau user tidak bayar dalam batas waktu, worker akan expire reservation dan mengembalikan inventory. Dari sini saya belajar memodelkan state, transaksi, race condition, background job, dan idempotency.
+>
+> Walaupun stack-nya Go dan SQLite, konsep backend-nya transferable ke .NET: controller/handler layer, service layer, repository/data access, transaction boundary, role-based authorization, background worker, consistent error handling, dan database-backed workflow.
+
+Technical details to mention:
+
+- Stack: Go, SQLite, Chi, JWT, Docker Compose.
+- Backend concepts: REST API, JWT auth, reservations, mock payments, refunds, workers, QR ticketing, risk checks.
+- Relevant to .NET: layered backend design, transactions, authorization, background jobs, SQL persistence.
+
+Potential follow-up answer:
+
+> Kalau saya implement di .NET, pendekatannya bisa mirip: ASP.NET Core Web API untuk endpoint, Entity Framework atau Dapper untuk data access, SQL Server untuk persistence, hosted service atau queue worker untuk expiration job, dan middleware/filter untuk auth serta error handling.
+
+#### Project 3: SITAMPANPARAT - government mapping and reporting system
+
+Use this when asked about end-to-end ownership and client delivery.
+
+Spoken version:
+
+> SITAMPANPARAT adalah freelance project untuk client pemerintahan, fokusnya mapping/reporting system yang mendukung mobile workflow. Saya mengerjakan backend, geospatial data, Docker deployment, dan document/report generation.
+>
+> Secara teknis saya membangun REST API dengan Node.js, TypeScript, Hono, PostgreSQL/PostGIS, dan visualisasi berbasis Leaflet. Tantangannya adalah data bukan hanya table biasa, tapi ada geospatial data, koordinat, area mapping, dan kebutuhan report. Jadi saya perlu memikirkan API shape, query ke PostGIS, struktur data yang mudah dikonsumsi frontend, dan deployment yang bisa dijalankan konsisten.
+>
+> Project ini menunjukkan kemampuan saya untuk mengambil ownership dari requirement sampai delivery: memahami kebutuhan client, membangun API, mengelola database, menyiapkan deployment, dan menghasilkan output report yang digunakan user.
+
+Technical details to mention:
+
+- Stack: Node.js, TypeScript, Hono, PostgreSQL/PostGIS, Leaflet, Docker.
+- Responsibilities: backend API, geospatial data model, deployment, reporting/document generation.
+- Strong signal: end-to-end delivery, SQL/data modeling, client communication.
+
+#### Project 4: Svara Aircast - performance and monitoring
+
+Use this when asked about optimization, reliability, or measurable impact.
+
+Spoken version:
+
+> Di Svara Aircast, saya bekerja pada platform radio streaming automation. Salah satu kontribusi saya adalah optimasi file I/O dan stream-processing path yang menurunkan CPU usage sekitar 30%. Selain itu saya juga mendesain real-time audio silence detection untuk membantu monitoring ketika ada masalah audio.
+>
+> Dari project ini saya belajar bahwa backend atau system work tidak selalu hanya CRUD. Kadang bottleneck ada di I/O, proses streaming, atau observability. Pendekatan saya adalah memahami path yang paling berat, melihat behavior runtime, memperbaiki bagian yang paling berdampak, lalu memastikan perubahan tetap reliable untuk production.
+
+Technical details to mention:
+
+- Domain: media streaming and automation.
+- Responsibilities: production features, performance optimization, monitoring feature.
+- Result: approximately 30% CPU usage reduction.
+- Strong signal: measurable optimization and operational reliability.
+
+#### Project 5: Mini PaaS - platform and integration prototype
+
+Use this only after stronger professional examples, or when asked about integration/platform thinking.
+
+Spoken version:
+
+> Mini PaaS adalah side project untuk mempelajari platform engineering secara bertahap. Saya membuat Go API dan React frontend untuk user auth, app CRUD, GitHub App installation, repository and branch selection, simulated deployment records, dan log streaming menggunakan Server-Sent Events.
+>
+> Saya sengaja membatasi milestone pertama pada workflow dan contract: user bisa connect GitHub, pilih repository, trigger simulated deployment, lalu melihat deployment log. Real Docker build dan runtime infrastructure belum saya masukkan di milestone ini supaya interface, data model, dan user flow-nya matang dulu.
+>
+> Nilai teknisnya adalah integration design, incremental delivery, deployment lifecycle modeling, dan real-time log streaming.
+
+Technical details to mention:
+
+- Stack: Go, SQLite, React, Vite, TypeScript, GitHub App integration.
+- Concepts: external integration, deployment records, SSE log streaming, staged delivery.
+- Strong signal: platform mindset and pragmatic milestone planning.
+
 ### Story 1: Eventix API design
 
 - Situation: Needed an event ticketing backend with attendees, organizers, events, ticket tiers, orders, payments, tickets, refunds, and admin risk review.
@@ -188,6 +329,10 @@ Use this when asked:
 
 ## Final checklist
 
+- [ ] Practice opening answer with .NET-relevant stack first.
+- [ ] Prepare one concise explanation of C#/.NET foundation, REST API, and SQL Server relevance.
+- [ ] Practice detailed explanation of iSystem Asia NCCF/ERP integration project.
+- [ ] Practice detailed explanation of Eventix using reservation/payment workflow.
 - [ ] Prepare a 60-second self-introduction.
 - [ ] Review [[eventix]] and explain API design, auth, reservations, payments, refunds, workers, and risk review.
 - [ ] Review [[mini-paas]] and explain GitHub integration, deployment records, and log streaming.
@@ -216,4 +361,3 @@ Use this when asked:
 - Answers to improve:
 - Follow-up action:
 - Result:
-
