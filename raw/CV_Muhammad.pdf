@@ -1,22 +1,59 @@
 %PDF-1.4
 %‚„œ”
 1 0 obj
-<< /Type /Catalog /Pages 2 0 R >>
+<<
+/Producer (pypdf)
+>>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+<<
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
+>>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Annots [7 0 R 8 0 R 9 0 R 10 0 R] /Contents 6 0 R >>
+<<
+/Type /Catalog
+/Pages 2 0 R
+/Outlines 8 0 R
+>>
 endobj
 4 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+<<
+/Type /Page
+/MediaBox [ 0 0 595.28 841.89 ]
+/Resources <<
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+>>
+>>
+/Contents 7 0 R
+/Parent 2 0 R
+/Annots [ 9 0 R 10 0 R 11 0 R 12 0 R ]
+>>
 endobj
 5 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+>>
 endobj
 6 0 obj
-<< /Length 9457 >>
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+>>
+endobj
+7 0 obj
+<<
+/Length 9533
+>>
 stream
 0.120 0.130 0.160 rg
 BT /F2 24.00 Tf 50.00 806.00 Td (Muhammad Ghafuri) Tj ET
@@ -71,7 +108,7 @@ BT /F2 10.00 Tf 50.00 647.80 Td (Lead Software Engineer - PT Inter Sistem Asia \
 0.330 0.360 0.420 rg
 BT /F1 9.00 Tf 463.11 647.80 Td (Jul 2025 - Jun 2026) Tj ET
 0.330 0.360 0.420 rg
-BT /F1 9.05 Tf 50.00 634.90 Td (CelcomDigi Bhd, Malaysia - Enterprise NCCF Platforms | Jakarta, Indonesia) Tj ET
+BT /F1 9.05 Tf 50.00 634.90 Td (CelcomDigi Bhd, Malaysia - Enterprise Order Management System Platforms | Jakarta, Indonesia) Tj ET
 0.120 0.130 0.160 rg
 BT /F2 9.45 Tf 54.00 622.40 Td (-) Tj ET
 0.120 0.130 0.160 rg
@@ -81,7 +118,7 @@ BT /F1 9.45 Tf 64.00 609.75 Td (validation, and rollout trade-offs across intern
 0.120 0.130 0.160 rg
 BT /F2 9.45 Tf 54.00 597.10 Td (-) Tj ET
 0.120 0.130 0.160 rg
-BT /F1 9.45 Tf 64.00 597.10 Td (Led production debugging and release coordination for NCCF/ERP data flows, protecting core order) Tj ET
+BT /F1 9.45 Tf 64.00 597.10 Td (Led production debugging and release coordination for Order Management System/ERP data flows, protecting core order) Tj ET
 0.120 0.130 0.160 rg
 BT /F1 9.45 Tf 64.00 584.45 Td (management workflows during UAT, rollout, and change windows.) Tj ET
 0.120 0.130 0.160 rg
@@ -89,11 +126,11 @@ BT /F2 10.00 Tf 50.00 565.80 Td (Software Engineer - PT Inter Sistem Asia \(iSys
 0.330 0.360 0.420 rg
 BT /F1 9.00 Tf 463.11 565.80 Td (Oct 2024 - Jul 2025) Tj ET
 0.330 0.360 0.420 rg
-BT /F1 9.05 Tf 50.00 552.90 Td (CelcomDigi Bhd, Malaysia - Enterprise NCCF Platforms | Jakarta, Indonesia) Tj ET
+BT /F1 9.05 Tf 50.00 552.90 Td (CelcomDigi Bhd, Malaysia - Enterprise Order Management System Platforms | Jakarta, Indonesia) Tj ET
 0.120 0.130 0.160 rg
 BT /F2 9.45 Tf 54.00 540.40 Td (-) Tj ET
 0.120 0.130 0.160 rg
-BT /F1 9.45 Tf 64.00 540.40 Td (Executed change requests and system improvements across enterprise NCCF order-management workflows) Tj ET
+BT /F1 9.45 Tf 64.00 540.40 Td (Executed change requests and system improvements across enterprise Order Management System order-management workflows) Tj ET
 0.120 0.130 0.160 rg
 BT /F1 9.45 Tf 64.00 527.75 Td (used by business customers to process company-registration agreements.) Tj ET
 0.120 0.130 0.160 rg
@@ -210,37 +247,79 @@ BT /F1 9.05 Tf 50.00 29.45 Td (Creatio Developer - Advanced Level; AWS Cloud Pra
 BT /F1 9.05 Tf 50.00 17.45 Td (Google Cloud SQL for PostgreSQL; ICPC participant; TOEFL 626.) Tj ET
 endstream
 endobj
-7 0 obj
-<< /Type /Annot /Subtype /Link /Rect [208.20 769.90 333.94 781.70] /Border [0 0 0] /A << /S /URI /URI (mailto:muhammadghafuri6301@gmail.com) >> >>
-endobj
 8 0 obj
-<< /Type /Annot /Subtype /Link /Rect [345.23 769.90 472.55 781.70] /Border [0 0 0] /A << /S /URI /URI (https://www.linkedin.com/in/muhammad-ghafuri) >> >>
+<<
+>>
 endobj
 9 0 obj
-<< /Type /Annot /Subtype /Link /Rect [50.00 757.00 138.06 768.80] /Border [0 0 0] /A << /S /URI /URI (https://github.com/madaghafuri) >> >>
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [ 208.2 769.9 333.94 781.7 ]
+/Border [ 0 0 0 ]
+/A <<
+/S /URI
+/URI (mailto\072muhammadghafuri6301\100gmail\056com)
+>>
+>>
 endobj
 10 0 obj
-<< /Type /Annot /Subtype /Link /Rect [149.35 757.00 237.33 768.80] /Border [0 0 0] /A << /S /URI /URI (https://porto.madaghafuri.my.id/) >> >>
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [ 345.23 769.9 472.55 781.7 ]
+/Border [ 0 0 0 ]
+/A <<
+/S /URI
+/URI (https\072\057\057www\056linkedin\056com\057in\057muhammad\055ghafuri)
+>>
+>>
 endobj
 11 0 obj
-<< /Title (Muhammad Ghafuri - Lead Software Engineer CV) /Author (Muhammad Ghafuri) /Creator (Codex direct PDF generator) >>
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [ 50 757 138.06 768.8 ]
+/Border [ 0 0 0 ]
+/A <<
+/S /URI
+/URI (https\072\057\057github\056com\057madaghafuri)
+>>
+>>
+endobj
+12 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [ 149.35 757 237.33 768.8 ]
+/Border [ 0 0 0 ]
+/A <<
+/S /URI
+/URI (https\072\057\057porto\056madaghafuri\056my\056id\057)
+>>
+>>
 endobj
 xref
-0 12
+0 13
 0000000000 65535 f 
 0000000015 00000 n 
-0000000064 00000 n 
-0000000121 00000 n 
-0000000298 00000 n 
-0000000395 00000 n 
-0000000497 00000 n 
-0000010006 00000 n 
-0000010168 00000 n 
+0000000054 00000 n 
+0000000113 00000 n 
+0000000178 00000 n 
+0000000361 00000 n 
+0000000458 00000 n 
+0000000560 00000 n 
+0000010145 00000 n 
+0000010166 00000 n 
 0000010338 00000 n 
-0000010493 00000 n 
-0000010652 00000 n 
+0000010535 00000 n 
+0000010703 00000 n 
 trailer
-<< /Size 12 /Root 1 0 R /Info 11 0 R >>
+<<
+/Size 13
+/Root 3 0 R
+/Info 1 0 R
+>>
 startxref
-10793
+10883
 %%EOF

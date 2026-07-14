@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/interview-story-bank.md",
+                "file": "projects/mlops-learning-roadmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "interview-story-bank"
+              "title": "mlops-learning-roadmap"
             }
           }
         ]
@@ -186,11 +186,14 @@
   },
   "active": "b23628539ca44ac3",
   "lastOpenFiles": [
+    "maps/projects.md",
+    "projects/mlops-learning-roadmap.md",
+    "maps/mlops.md",
+    "wiki/interview-story-bank.md",
     "wiki/experience.md",
     "wiki/project-portfolio.md",
     "wiki/skills.md",
     "wiki/profile.md",
-    "wiki/interview-story-bank.md",
     "wiki/index.md",
     "raw/CV_Muhammad.pdf",
     "projects/second-brain.md",
@@ -198,7 +201,6 @@
     "wiki",
     "projects/bank-bri-backend-interview-2026-07-07.md",
     "raw",
-    "maps/projects.md",
     "projects/eventix.md",
     "projects/job-tracker.md",
     "projects/mini-paas.md",
