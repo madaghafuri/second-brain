@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/mlops-learning-roadmap.md",
+                "file": "projects/offline-toolkit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mlops-learning-roadmap"
+              "title": "offline-toolkit"
             }
           }
         ]
@@ -186,8 +186,9 @@
   },
   "active": "b23628539ca44ac3",
   "lastOpenFiles": [
-    "maps/projects.md",
+    "2026-07-18.md",
     "projects/mlops-learning-roadmap.md",
+    "maps/projects.md",
     "maps/mlops.md",
     "wiki/interview-story-bank.md",
     "wiki/experience.md",
